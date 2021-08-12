@@ -4,7 +4,7 @@ module "jayaworld-s3-bucket" {
   # insert required variables here
   bucket_name = "jaya-first-module-hello"
   tags = {
-      "bucket_owner" = "jaya"
-      "cost" = "free"
+    bucket_owner = "jaya"
+    cost         = "free"
   }
 }
