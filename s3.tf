@@ -3,4 +3,6 @@ module "jayaworld-s3-bucket" {
   version = "0.10.0"
   # insert required variables here
   bucket_name = "jaya-first-module-hello"
+  access_key = var.aws_access_key_id
+  secret_key = var.aws_secret_access_key
 }
