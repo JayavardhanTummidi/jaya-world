@@ -3,4 +3,8 @@ module "jayaworld-s3-bucket" {
   version = "0.11.0"
   # insert required variables here
   bucket_name = "jaya-first-module-hello"
+  tags = {
+      bucket_owner = "jaya"
+      cost = "free"
+  }
 }
