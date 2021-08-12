@@ -1,10 +1,6 @@
-module "s3_bucket" {
-  source = "terraform-aws-modules/s3-bucket/aws"
-
-  bucket = "my-s3-bucket-jaya-world"
-  acl    = "private"
-
-  versioning = {
-    enabled = true
-  }
+module "jayaworld-s3-bucket" {
+  source  = "app.terraform.io/jaya-world/jayaworld-s3-bucket/aws"
+  version = "0.6.0"
+  # insert required variables here
+  bucket_name = "jaya-first-module-hello"
 }
