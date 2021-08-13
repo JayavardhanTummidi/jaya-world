@@ -7,5 +7,6 @@ module "jayaworld-s3-bucket" {
   tags = {
     bucket = "s3 bucket"
     owner = "jaya-world"
+    cost = "free"
   }
 }
